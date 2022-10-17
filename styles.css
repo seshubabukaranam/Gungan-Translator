@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Patrick+Hand&display=swap');
+* {
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: #4af066;
+    --black: #727070;
+    --width-break: 600px
+    }
+    body {
+     margin: 0;
+     font-family: 'Patrick Hand', cursive;
+        color: #333333;
+    }
+    main {
+        margin: auto;
+        padding: 1rem;
+        max-width: var(--width-break);
+    }
+    textarea {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        min-height: 20vh;
+        margin-top: 2rem;
+        font-size: large;
+        font-family: inherit;
+    }
+
+   .header-container{
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 2rem; 
+   }
+   button {
+    background-color: var(--primary-color);
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-family: 'Patrick Hand', cursive;
+    font-size: large;
+}
+    #txt-output {
+        box-sizing: border-box;
+        width: 100%;
+        min-height: 10vh;
+        max-height: 20vh;
+        overflow:scroll;
+        border: 1px solid var(--black);
+    }
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+footer p {
+    max-width: var(--width-break);
+    margin: auto;
+}
+
+
